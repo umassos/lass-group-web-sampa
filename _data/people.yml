@@ -1,161 +1,658 @@
+# Defines the structure for "people" sections on the site
+# images should be stored under /assets/people/
+# To make an image not show on the homepage (which is a smaller section)
+# set alum=false
 
-prof-a:
-    display_name: "Prof A"
-    role: faculty
+# To order alphabetically by last name, currently you need to insert the people's information into a proper location in the list
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
+prashant:
+  display_name: Prashant Shenoy
+  image: /img/people/shenoy.jpg
+  role: faculty
+  bio: University of Masschusetts Amherst
+  webpage: https://people.cs.umass.edu/~shenoy/
 
-prof-c:
-    display_name: "Prof C"
-    role: faculty
+#ramesh:
+#  display_name: Ramesh Sitaraman
+#  image: /img/people/ramesh.jpg
+#  role: faculty
+#  bio: University of Masschusetts Amherst
+#  webpage: https://groups.cs.umass.edu/ramesh/
+#
+#adam:
+#  display_name: Adam Wierman
+#  image: /img/people/adam.jpg
+#  role: faculty
+#  bio: California Institute of Technology
+#  webpage: https://adamwierman.com/
 
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
+#tian:
+#  display_name: Tian Guo
+#  image: /img/people/tian.jpg
+#  role: faculty
+#  bio: Worcester Polytechnic Institute
+#  webpage: http://tianguo.info
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
+#david:
+#  display_name: David Irwin
+#  image: /img/people/david.jpg
+#  role: faculty
+#  bio: University of Masschusetts Amherst
+#  webpage: https://www.davidirwin.info/
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
+#mohammad:
+#  display_name: Mohammad Hajiesmaili
+#  image: /img/people/mohammad.jpg
+#  role: faculty
+#  bio: University of Masschusetts Amherst
+#  webpage: https://groups.cs.umass.edu/hajiesmaili/
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: grad
-    image: /img/people/storm.png
+#vivek:
+#  display_name: Vivek Deulkar
+#  image: /img/people/vivek.png
+#  role: postdoc
+#  bio: University of Masschusetts Amherst
+#  webpage: https://scholar.google.com/citations?user=sfjYZBwAAAAJ&hl=en
 
-grad-a:
-    display_name: "Grad A"
-    role: grad
+#morteza:
+#  display_name: Seyed Nabavinejad
+#  image: /img/people/morteza.jpg
+#  role: postdoc
+#  bio: Worcester Polytechnic Institute
+#  webpage: https://scholar.google.com/citations?user=ABn7rIcAAAAJ&hl=en
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
-    role: grad
+emmanuel:
+  display_name: Emmanuel Cecchet
+  image: /img/people/cecchet_epfl.jpeg
+  role: staff
+  bio: University of Masschusetts Amherst
+  webpage: http://people.cs.umass.edu/~cecchet/
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+erik:
+  display_name: Erik Risinger
+  image: /img/people/erikrisinger_0.jpeg
+  role: staff
+  bio: University of Masschusetts Amherst
+  webpage: https://www.cics.umass.edu/people/risinger-erik
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
+noman:
+  display_name: Noman Bashir
+  image: /img/people/noman.png
+  role: postdoc
+  bio: University of Masschusetts Amherst
+  webpage: https://noman-bashir.github.io/
+  github: noman-bashir
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
+abel:
+  display_name: Abel Souza
+  image: /img/people/abel.jpg
+  role: postdoc
+  bio: University of Masschusetts Amherst
+  webpage: https://asouza.io
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
+camellia:
+  display_name: Camellia Zakaria
+  image: /img/people/camellia.png
+  role: postdoc
+  bio: University of Masschusetts Amherst
+  webpage: https://nczakaria.github.io/
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
+#diptyaroop:
+#  display_name: Diptyaroop Maji
+#  image: /img/people/Diptyaroop_Maji.jpg
+#  role: grad
+#  bio: University of Masschusetts Amherst
+#  webpage: mailto:dmaji@cs.umass.edu
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
+#yiqin:
+#  display_name: Yiqin Zhao
+#  image: /img/people/yiqin.jpg
+#  role: grad
+#  bio: Worcester Polytechnic Institute
+#  webpage: https://yiqinzhao.me/
 
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+jorge:
+  display_name: Jorge Murillo
+  image: /img/people/placeholder.png
+  role: grad
+  bio: University of Masschusetts Amherst
+  webpage: https://people.cs.umass.edu/~jrmurillo/
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
+adaml:
+  display_name: Adam Lechowicz
+  image: /img/people/adaml.jpg
+  role: grad
+  bio: University of Masschusetts Amherst
+  webpage: https://adamlechowicz.github.io/
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
+#chrisy:
+#  display_name: Chris Yeh
+#  image: /img/people/chrisyeh.jpg
+#  role: grad
+#  bio: California Institute of Technology
+#  webpage: https://chrisyeh96.github.io/
 
-alum-d:
-    display_name: "Alum D"
-    role: alum
+#jingyu:
+#  display_name: Jing Yu
+#  image: /img/people/jingyu.jpg
+#  role: grad
+#  bio: California Institute of Technology
+#  webpage: https://www.jingyu.io/
 
-alum-e:
-    display_name: "Alum E"
-    role: alum
+mehmet:
+  display_name: Mehmet Savasci
+  image: /img/people/mehmet.jpg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://msavasci.github.io
 
-alum-f:
-    display_name: "Alum F"
-    role: alum
+#nicoc:
+#  display_name: Nico Christianson
+#  image: /img/people/nico.jpg
+#  role: grad
+#  bio: California Institute of Technology
+#  webpage: https://nicochristianson.com/
 
-alum-g:
-    display_name: "Alum G"
-    role: alum
+nikko:
+  display_name: Phuthipong Bovornkeeratiroj
+  image: /img/people/nikko.jpg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://people.cs.umass.edu/~phuthipong/
 
-alum-h:
-    display_name: "Alum H"
-    role: alum
+#pieter:
+#  display_name: Pieter van Santvliet
+#  image: /img/people/pieter.jpg
+#  role: grad
+#  bio: California Institute of Technology
+#  webpage: https://www.linkedin.com/in/pvansant/
 
-alum-i:
-    display_name: "Alum I"
-    role: alum
+qianlin:
+  display_name: Qianlin Liang
+  image: /img/people/qianlin.jpg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://qianlin404.github.io/
 
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
+#rajeev:
+#  display_name: Rajeev Datta
+#  image: /img/people/placeholder.png
+#  role: ugrad
+#  bio: California Institute of Technology
+#  webpage: https://www.linkedin.com/in/rajeev-datta-1795ba1b1/
 
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
+#xiaoding:
+#  display_name: Xiaoding (Rebecca) Guan
+#  image: /img/people/rebecca.jpg
+#  role: grad
+#  bio: University of Massachusetts Amherst
+#  webpage: https://www.linkedin.com/in/xiaoding-guan-14b5a11b5/
 
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
+#roozbeh:
+#  display_name: Roozbeh Bostandoost
+#  image: /img/people/placeholder.png
+#  role: grad
+#  bio: University of Massachusetts Amherst
+#  webpage: https://people.cs.umass.edu/~rbostandoost/
 
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
+#russel:
+#  display_name: Russel Lee
+#  image: /img/people/russel.jpg
+#  role: grad
+#  bio: University of Massachusetts Amherst
+#  webpage: https://scholar.google.com/citations?user=402_G_IAAAAJ&hl=en
 
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
+#shijianli:
+#  display_name: Shijian Li
+#  image: /img/people/shijianli.jpg
+#  role: grad
+#  bio: Worcester Polytechnic Institute
+#  webpage: https://web.cs.wpi.edu/~sli8/
 
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
+tammy:
+  display_name: Thanathorn Sukprasert
+  image: /img/people/tammy.jpg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://www.linkedin.com/in/tsukprasert/
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
+walid:
+  display_name: Walid A. Hanafy
+  image: /img/people/walid.jpg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://people.cs.umass.edu/~whanafy/
 
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
+akanksha:
+  display_name: Akanksha Atrey
+  image: /img/people/akanksha.png
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://www.cs.umass.edu/~aatrey/
 
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
+priyanka:
+  display_name: Priyanka Mammen
+  image: /img/people/priyanka.jpeg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: http://people.cs.umass.edu/~pmammen/
 
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+bin:
+  display_name: Bin Wang
+  image: /img/people/bin_wang.jpeg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: http://people.cs.umass.edu/~binwang
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+bhawana:
+  display_name: Bhawana Chhaglani
+  image: /img/people/bhawana.jpeg
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://sites.google.com/view/bhawanachhaglani/
+
+hetvi:
+  display_name: Hetvi Shastri
+  image: /img/people/placeholder.png
+  role: grad
+  bio: University of Massachusetts Amherst
+  webpage: https://lass.cs.umass.edu/people.html
+
+
+# Under-grad
+
+tergel:
+  display_name: Tergel Molom-Ochir
+  image: /img/people/tergel.jpeg
+  role: ugrad
+  bio: University of Massachusetts Amherst
+  webpage: https://scholar.google.com/citations?user=Uqp2VtkAAAAJ&hl=en
+
+
+vibhhu:
+  display_name: Vibhhu Sharma
+  image: /img/people/placeholder.png
+  role: ugrad
+  bio: University of Massachusetts Amherst
+
+anupama:
+  display_name: Anupama Sitaraman
+  image: /img/people/placeholder.png
+  role: ugrad
+  bio: University of Massachusetts Amherst
+
+
+# Alumni
+
+john:
+  display_name: John Wamburu
+  image: /img/people/john.jpg
+  role: alum
+  bio: Research Staff at IBM Research, Kenya
+  webpage: https://people.cs.umass.edu/~jwamburu/
+
+amee:
+  display_name: Amee Trivedi
+  image: /img/people/amee_site.jpeg
+  role: alum
+  bio: Postdoctoral Scholar at University of British Columbia, Canada
+  webpage: https://ameetrivedi.github.io/
+
+ahmed:
+  display_name: Ahmed Ali-Eldin
+  image: /img/people/ahmed.jpg
+  role: alum
+  bio: Assistant Professor, Chalmers University, Sweden
+  webpage: https://www.chalmers.se/en/staff/Pages/ahmh.aspx
+
+stephen:
+  display_name: Stephen Lee
+  image: /img/people/stephenlee86.jpeg
+  role: alum
+  bio: Assistant Professor, University of Pittsburgh
+  webpage: https://people.cs.pitt.edu/~stl86/
+
+jeremy:
+  display_name: Jeremy Gummeson
+  image: /img/people/jeremy.jpeg
+  role: alum
+  bio: Assistant Professor, University of Massachusetts, ECE
+  webpage: https://www.jeremygummeson.com/
+
+vani:
+  display_name: Vani Gupta
+  image: /img/people/vani_photo-4.jpeg
+  role: alum
+  bio: Assistant Professor, Providence College
+  webpage: https://mathematics-computer-science.providence.edu/faculty-members/vani-gupta/
+
+srinivasan:
+  display_name: Srinivasan Iyengar
+  image: /img/people/Srinivasan-Iyengar.jpeg
+  role: alum
+  bio: Assistant Professor, Providence College
+  webpage: https://www.microsoft.com/en-us/research/people/sriyengar/
+
+prateek:
+  display_name: Prateek Sharma
+  image: /img/people/placeholder.png
+  role: alum
+  bio: Assistant Professor, Indiana University, Bloomington
+  webpage: https://cgi.luddy.indiana.edu/~prateeks/
+
+tian:
+  display_name: Tian Guo
+  image: /img/people/tian.png
+  role: alum
+  bio: Assistant Professor, Worcester Polytechnic Institute
+  webpage: http://tianguo.info/
+
+xin:
+  display_name: Xin He
+  image: /img/people/tian.png
+  role: alum
+  bio: Oracle
+
+aditya:
+  display_name: Aditya Mishra
+  image: /img/people/aditya.png
+  role: alum
+  bio: Assistant Professor, Seattle University
+  webpage: http://fac-staff.seattleu.edu/mishraa/web/
+
+sean:
+  display_name: Sean Barker
+  image: /img/people/sbarker-small.jpeg
+  role: alum
+  bio: Assistant Professor, Bowdoin College
+  webpage: https://www.bowdoin.edu/~sbarker/
+
+rahul:
+  display_name: Rahul Singh
+  image: /img/people/placeholder.png
+  role: alum
+  bio: "Research Staff Member, IBM Watson; Now: Nutanix"
+
+navin:
+  display_name: Navin Sharma
+  image: /img/people/placeholder.png
+  role: alum
+  bio: Post-doctoral reseacher and Founder Heystack Inc
+
+upendra:
+  display_name: Upendra Sharma
+  image: /img/people/placeholder.png
+  role: alum
+  bio: Research Staff Member, IBM Watson
+
+david:
+  display_name: David Irwin
+  image: /img/people/david.jpg
+  role: alum
+  bio: University of Masschusetts Amherst
+  webpage: https://www.davidirwin.info/
+
+tim:
+  display_name: Tim Wood
+  image: /img/people/tim1.jpeg
+  role: alum
+  bio: Assistant Professor, George Washington University
+  webpage: http://faculty.cs.gwu.edu/~timwood/wiki/doku.php/home
+
+mike:
+  display_name: Mike Zink
+  image: /img/people/placeholder.png
+  role: alum
+  bio: Assistant Professor, ECE, University of Massachusetts
+  webpage: http://www.ecs.umass.edu/~mzink
+
+peter:
+  display_name: Peter Desnoyers
+  image: /img/people/peter.png
+  role: alum
+  bio: Assistant Professor, Northeastern University
+  webpage: http://www.ccs.neu.edu/home/pjd
+
+puru:
+  display_name: Puru Kulkarni
+  image: /img/people/puru.png
+  role: alum
+  bio: Assistant Professor, IIT Bombay
+  webpage: http://www.cse.iitb.ac.in/~puru/
+
+xiaotao:
+  display_name: Xiaotao Liu
+  image: /img/people/xiaotao.jpeg
+  role: alum
+  bio: "Senior Research Scientist, EMC; Now: CEO, SuperNode"
+  webpage: https://www.linkedin.com/in/xiaotao-liu-70a1018/
+
+huan:
+  display_name: Huan Li
+  image: /img/people/placeholder.png
+  role: alum
+  bio: "Associate Professor, Beihang University; Now: Professor, Harbin Institute of Technology"
+
+vijay:
+  display_name: Vijay Sundaram
+  image: /img/people/placeholder.png
+  role: alum
+  bio: Microsoft Corp.
+
+bhuvan:
+  display_name: Bhuvan Urgaonkar
+  image: /img/people/URGAONKAR-BHUVAN.jpeg
+  role: alum
+  bio: Assistant Professor, Pennsylvania State University
+  webpage: http://www.cse.psu.edu/~bhuvan/
+
+abhishek:
+  display_name: Abhishek Chandra
+  image: /img/people/profile_chandra.jpeg
+  role: alum
+  bio: Assistant Professor, University of Minnesota
+  webpage: http://www-users.cs.umn.edu/~chandra/
+
+
+# Past Masters and Visiting Students
+
+christopher:
+  display_name: Christopher Raff
+  image: /img/people/placeholder.png
+  role: master-alum
+
+alexendar:
+  display_name: Alexendar Lamson
+  image: /img/people/placeholder.png
+  role: master-alum
+
+akhil:
+  display_name: Akhil Soman
+  image: /img/people/placeholder.png
+  bio: "Employer: Weill Cornell Medicine"
+  role: master-alum
+
+aslan:
+  display_name: Aslan Feng
+  image: /img/people/placeholder.png
+  bio: "Employer: Apple China"
+  role: master-alum
+
+chirag:
+  display_name: Chirag Goel
+  image: /img/people/placeholder.png
+  bio: "Employer: Verily Life Science, Alphabet"
+  role: master-alum
+
+assan:
+  display_name: Assan Toleuov
+  image: /img/people/placeholder.png
+  bio: "Employer: Facebook"
+  role: master-alum
+
+lucas:
+  display_name: Lucas Chaufournier
+  image: /img/people/placeholder.png
+  bio: "Employer: Capital One"
+  role: master-alum
+
+jonathan:
+  display_name: Jonathan Westin
+  image: /img/people/placeholder.png
+  bio: "Employer: Nasdaq"
+  role: master-alum
+
+rishikesh:
+  display_name: Rishikesh Jha
+  image: /img/people/placeholder.png
+  role: master-alum
+
+ritesh:
+  display_name: Ritesh Kumar
+  image: /img/people/placeholder.png
+  role: master-alum
+
+ishita:
+  display_name: Ishita Dasgupta
+  image: /img/people/placeholder.png
+  bio: "Employer: Current Ph.D student at UMass"
+  role: master-alum
+
+roopa:
+  display_name: Roopa Shenoy
+  image: /img/people/placeholder.png
+  bio: "Employer: Cisco"
+  role: master-alum
+
+puja:
+  display_name: Puja Mishra
+  image: /img/people/placeholder.png
+  bio: "Employer: Lutron"
+  role: master-alum
+
+seema:
+  display_name: Seema Guggari
+  image: /img/people/placeholder.png
+  bio: "Employer: Microsoft"
+  role: master-alum
+
+nikita:
+  display_name: Nikita Mehra
+  image: /img/people/placeholder.png
+  bio: "Employer: Twitter"
+  role: master-alum
+
+anushree:
+  display_name: Anushree Ghosh
+  image: /img/people/placeholder.png
+  bio: "Employer: Microsoft"
+  role: master-alum
+
+sneha:
+  display_name: Sneha Narayan
+  image: /img/people/placeholder.png
+  bio: "Employer: Twilio"
+  role: master-alum
+
+sandeep:
+  display_name: Sandeep Karla
+  image: /img/people/placeholder.png
+  bio: "Employer: Amazon"
+  role: master-alum
+
+benoy:
+  display_name: Benoy Varghese
+  image: /img/people/placeholder.png
+  bio: "Employer: Assosciate Dean, Kent Institute, Australia"
+  role: master-alum
+
+veena:
+  display_name: Veena Udayabhanu
+  image: /img/people/placeholder.png
+  bio: "Employer: Microsoft"
+  role: master-alum
+
+sippakorn:
+  display_name: Sippakorn Tansutthiwess
+  image: /img/people/placeholder.png
+  bio: "Employer: Microsoft"
+  role: master-alum
+
+gabriel:
+  display_name: Gabriel Tarasuk-Levin
+  image: /img/people/placeholder.png
+  bio: "Employer: VMWare"
+  role: master-alum
+
+gal:
+  display_name: Gal Niv
+  image: /img/people/placeholder.png
+  bio: "Initial: Pangea; Now: Kinvey"
+  role: master-alum
+
+adityaN:
+  display_name: Aditya Nemmaluri
+  image: /img/people/placeholder.png
+  bio: "Employer: Cisco Systems"
+  role: master-alum
+
+rick:
+  display_name: Rick Cocci
+  image: /img/people/placeholder.png
+  bio: "Initial: State Street; Now: Goodwin Procter LLP"
+  role: master-alum
+
+gaurav:
+  display_name: Gaurav Mathur
+  image: /img/people/placeholder.png
+  bio: "Initial: Google; Now: CEO and Co-founder Electric Sheep"
+  role: master-alum
+
+srinath:
+  display_name: Srinath Gaddam
+  image: /img/people/placeholder.png
+  bio: "Initial: EMC; Now: Founder, Social Timbre"
+  role: master-alum
+
+peterR:
+  display_name: Peter Radkov
+  image: /img/people/placeholder.png
+  bio: "Initial: Sirma Corporation, Bulgaria; Now: Degiro"
+  role: master-alum
+
+jiang:
+  display_name: Jiang Lan
+  image: /img/people/placeholder.png
+  bio: "Employer: Verizon Corporation"
+  role: master-alum
+
+anoop:
+  display_name: Anoop Ninan
+  image: /img/people/placeholder.png
+  bio: "Initial: EMC Corporation; Now: Vexata."
+  role: master-alum
+
+raunak:
+  display_name: M S. Raunak
+  image: /img/people/placeholder.png
+  bio: "Initial: EMC Corporation; Now: Vexata."
+  role: Assistant Professor, Loyola University
+  webpage: http://www.cs.loyola.edu/~raunak/
+
+venkata:
+  display_name: Venkata Duvvuri
+  image: /img/people/placeholder.png
+  bio: "Inital : Goldman Sachs ,  Now: Unity Technologies and Instrutor, Northeastern Univ."
+  role: master-alum
+
+
+
+
+
+
+
+
+
+
