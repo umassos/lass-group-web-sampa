@@ -1,9 +1,19 @@
 ---
 layout: default
 title: Publications
+years: [2022, 2021, 2020, 2017, 2016]
 ---
-<p>
-    <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
-</p>
+<!--<p>-->
+<!--    <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>-->
+<!--</p>-->
 
-{% include pubs.html %}
+<!--{% include pubs.html %}-->
+
+<div class="publications">
+
+    {% for y in page.years %}
+    <h2 class="year">{{y}}</h2>
+    {% bibliography -f pubs -q @*[year={{y}}]* %}
+    {% endfor %}
+
+</div>
