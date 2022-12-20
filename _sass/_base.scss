@@ -570,3 +570,106 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+#umass--global--footer {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.9rem;
+}
+
+#umass--global--footer #umass--logo-longform--stacked {
+  max-width: 250px !important;
+  height: auto;
+  margin: 1rem 0;
+}
+
+#umass-banner, #umass-banner + #metanav, .umass-legacy-header-banner {
+  display: none;
+}
+
+#umass-footer, .umass-legacy-footer-banner {
+  display: none;
+}
+
+#umass--global--header #umass--global--navigation {
+  position: static;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+#umass--global--header #umass--global--navigation a::after {
+  content: none;
+  margin: 0;
+}
+
+#umass--global--header button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+#umass--global--header button:hover {
+  background: none;
+  color: #fff;
+}
+
+#umass--global--footer {
+  background-color: #881c1c;
+  padding: 1rem;
+  color: #fff;
+}
+
+#umass--global--footer .container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 599px) {
+  #umass--global--footer .container {
+      display: block;
+  }
+}
+
+#umass--global--footer .container img {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+#umass--global--footer .container #umass--global--footer--links {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+#umass--global--footer .container #umass--global--footer--links a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 599px) {
+  #umass--global--footer .container #umass--global--footer--links {
+      text-align: center;
+  }
+}
+
+#umass--global--footer .container a, #umass--global--footer .container a:link, #umass--global--footer .container a:visited, #umass--global--footer .container a:hover {
+  color: #fff;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  border-bottom: none;
+  text-decoration: none;
+}
