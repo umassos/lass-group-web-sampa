@@ -1,4 +1,4 @@
-name: "LASS: Laboratory for Advanced Software Systems"
+name: "LASS: Laboratory for Advanced System Software"
 url: https://lass.cs.umass.edu/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -15,6 +15,8 @@ roles:
     name: Faculty
   - key: staff
     name: Research Staff
+  - key: adminstaff
+    name: Administrative Staff
   - key: postdoc
     name: Postdocs
   - key: grad
@@ -44,7 +46,7 @@ navigation:
     link: /
   - title: People
     link: /people.html
-  - title: Project
+  - title: Projects
     link: /research.html
   - title: Publications
     link: /publications.html
