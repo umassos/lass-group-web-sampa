@@ -50,6 +50,8 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
+  - title: Wiki
+    link: http://lass.cs.umass.edu/wiki/
 #  - title: Code
 #    link: /code.html
 

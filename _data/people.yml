@@ -14,44 +14,10 @@ prashant:
 
 karren:
   display_name: Karren Sacco
+  image: /img/people/cics.jpg
   role: adminstaff
-  bio: "ksacco [at] cs.umass.edu"
+  bio: "ksacco [at] cs [dot] umass [dot] edu"
   webpage: https://www.cics.umass.edu/people/sacco-karren
-
-#tian:
-#  display_name: Tian Guo
-#  image: /img/people/tian.jpg
-#  role: faculty
-#  bio: Worcester Polytechnic Institute
-#  webpage: http://tianguo.info
-
-#david:
-#  display_name: David Irwin
-#  image: /img/people/david.jpg
-#  role: faculty
-#  bio: University of Masschusetts Amherst
-#  webpage: https://www.davidirwin.info/
-
-#mohammad:
-#  display_name: Mohammad Hajiesmaili
-#  image: /img/people/mohammad.jpg
-#  role: faculty
-#  bio: University of Masschusetts Amherst
-#  webpage: https://groups.cs.umass.edu/hajiesmaili/
-
-#vivek:
-#  display_name: Vivek Deulkar
-#  image: /img/people/vivek.png
-#  role: postdoc
-#  bio: University of Masschusetts Amherst
-#  webpage: https://scholar.google.com/citations?user=sfjYZBwAAAAJ&hl=en
-
-#morteza:
-#  display_name: Seyed Nabavinejad
-#  image: /img/people/morteza.jpg
-#  role: postdoc
-#  bio: Worcester Polytechnic Institute
-#  webpage: https://scholar.google.com/citations?user=ABn7rIcAAAAJ&hl=en
 
 emmanuel:
   display_name: Emmanuel Cecchet
@@ -92,7 +58,7 @@ camellia:
 
 jorge:
   display_name: Jorge Murillo
-  image: /img/people/placeholder.png
+  image: /img/people/jorge.jpg
   role: grad
   bio: PhD Student
   webpage: https://people.cs.umass.edu/~jrmurillo/
@@ -168,7 +134,7 @@ hetvi:
   webpage: https://lass.cs.umass.edu/people.html
 
 tammy:
-  display_name: Thanathorn Sukprasert
+  display_name: Thanathorn (Tammy) Sukprasert
   image: /img/people/tammy.jpg
   role: grad
   bio: PhD Student (co-advised)
