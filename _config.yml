@@ -30,7 +30,7 @@ roles:
 
 
 # Number of news stories on the front page.
-front_page_news: 8
+front_page_news: 5
 
 # Base pathname for links.
 base: ''
@@ -44,16 +44,19 @@ collections:
 navigation:
   - title: Home
     link: /
+  - title: News
+    link: /blog.html
   - title: People
     link: /people.html
   - title: Projects
     link: /research.html
+  - title: Software
+    link: /software.html
   - title: Publications
     link: /publications.html
-  - title: Wiki
-    link: http://lass.cs.umass.edu/wiki/
-#  - title: Code
-#    link: /code.html
+  # - title: Wiki
+  #   link: http://lass.cs.umass.edu/wiki/
+
 
 
 scholar:
