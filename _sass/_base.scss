@@ -38,6 +38,11 @@ blockquote {
   font-size: 1.2rem;
 }
 
+.caption-main {
+  color: white;
+  font-size: 28px
+}
+
 // Math
 
 .equation {
@@ -635,6 +640,12 @@ html.transition *:after {
 @media only screen and (max-width: 599px) {
   #umass--global--footer .container {
       display: block;
+  }
+  .caption-main {
+    font-size: 12px;
+  }
+  p {
+    font-size: 16px;
   }
 }
 

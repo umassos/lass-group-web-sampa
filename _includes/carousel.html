@@ -28,7 +28,7 @@
           <ul>
             {% for item in page.carousels[number].items %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"><div class="carousel-caption"; style="background-color: rgba(0, 0, 0, 0.8)">
-              <h4 style="color: white">{{ item.caption }}</h4>
+              <h4 class="caption-main">{{ item.caption }}</h4>
             </div></li>
             {% endfor %}
           </ul>
