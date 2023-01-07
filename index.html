@@ -46,20 +46,40 @@ carousels:
     </p>
 </div>
 
-<section>
-    <h2>Recent News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
+<section class="people row justify-content-between">
+    <div class="col-md-7">
+        <h3>Research Areas</h3>
+        <p>Our lab comprises of two research groups: distributed systems group and green computing group.</p>
+        <b>Distributed Systems research</b>
+        <p>The distributed systems research group focuses on topics in cloud computing, virtualization, data centers and data management. Ongoing projects include:</p>
+        <ul>
+            <li>Cloud-MD: Mobile and Distributed Clouds</li>
+            <li>GreenClouds: Greening Data Centers, Clouds and Distributed Systems</li>
+            <li>BenchLab: Realistic, Open Internet-scale Benchmarking</li>
+        </ul><br>
+        <b>Green Computing research</b>
+        <p>The Green Computing research group focuses on topics in sustainability, smarter energy systems, smart buildings, smart grid and renewables. We take a systems and data analytics approach to addressing problems in this area. Ongoing projects include:</p>
+        <ul>
+            <li>Data Analytics for Smarter Energy Systems</li>
+            <li>Demand-side Energy Management for Smart Homes</li>
+            <li>Privacy in the Smart Grid.</li>
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <h3>Recent News</h3>
+        <ul class="news list-unstyled">
+            {% for post in site.posts limit: site.front_page_news %}
+                {% include news-item.html item=post %}
+            {% endfor %}
+        </ul>
+        {% assign numposts = site.posts | size %}
+        {% if numposts >= 1 %}
+            <p>
+                <span class="fa fa-fw fa-history"></span>
+                <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+            </p>
+        {% endif %}
+    </div>
 </section>
 
 <!--<section>-->

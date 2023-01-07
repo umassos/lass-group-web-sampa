@@ -44,16 +44,16 @@ collections:
 navigation:
   - title: Home
     link: /
-  - title: News
-    link: /blog.html
   - title: People
     link: /people.html
-  - title: Projects
-    link: /research.html
-  - title: Software
-    link: /software.html
   - title: Publications
     link: /publications.html
+  - title: Projects
+    link: /research.html
+  - title: News
+    link: /blog.html
+  - title: Code
+    link: /code.html
   # - title: Wiki
   #   link: http://lass.cs.umass.edu/wiki/
 

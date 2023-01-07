@@ -37,7 +37,7 @@ erik:
 noman:
   display_name: Noman Bashir
   image: /img/people/noman.png
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://noman-bashir.github.io/
   github: noman-bashir
@@ -45,14 +45,14 @@ noman:
 abel:
   display_name: Abel Souza
   image: /img/people/abel.jpg
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://asouza.io
 
 camellia:
   display_name: Camellia Zakaria
   image: /img/people/camellia.png
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://nczakaria.github.io/
 
