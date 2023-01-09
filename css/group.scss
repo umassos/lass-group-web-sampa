@@ -130,6 +130,7 @@ section {
 
     .bio {
         color: $gray;
+        padding: 0px 0px 2px 0px;
     }
 
     .person-name {
@@ -138,7 +139,7 @@ section {
 }
 
 .person-without-image {
-    margin: 0;
+    margin-bottom: 5px;
 
     .bio {
         margin-left: 1em;
