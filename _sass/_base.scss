@@ -15,6 +15,20 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -40,7 +54,7 @@ blockquote {
 
 .caption-main {
   color: white;
-  font-size: 28px
+  font-size: 18px
 }
 
 // Math
@@ -243,30 +257,30 @@ blockquote {
 }
 
 
-// Footer
-footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
-  .container {
-    color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
-}
-  a {
-    color: var(--global-footer-link-color);
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
-  }
-}
-}
+// // Footer
+// footer.fixed-bottom {
+//   background-color: var(--global-footer-bg-color);
+//   font-size: 0.75rem;
+//   .container {
+//     color: var(--global-footer-text-color);
+//     padding-top: 9px;
+//     padding-bottom: 8px;
+// }
+//   a {
+//     color: var(--global-footer-link-color);
+//     &:hover {
+//       color: var(--global-theme-color);
+//       text-decoration: none;
+//   }
+// }
+// }
 
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
-}
+// footer.sticky-bottom {
+//   border-top: 1px solid var(--global-divider-color);
+//   padding-top: 40px;
+//   padding-bottom: 40px;
+//   font-size: 0.9rem;
+// }
 
 
 // Blog
@@ -413,10 +427,19 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
 }
+  h3.year {
+  color: var(--global-divider-color);
+  border-top: 1px solid #999;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  text-align: left;
+}
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    font-size: 14px;
 
     li {
       margin-bottom: 1rem;
@@ -460,10 +483,10 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          padding-top: 0.15rem;
+          padding-bottom: 0.15rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -623,6 +646,9 @@ html.transition *:after {
   background-color: #881c1c;
   padding: 1rem;
   color: #fff;
+  // position: absolute;
+  // bottom: 0;
+  // width: 100%;
 }
 
 #umass--global--footer .container {
@@ -654,7 +680,7 @@ html.transition *:after {
   -ms-flex-positive: 0;
   flex-grow: 0;
   -ms-flex-negative: 1;
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 
 #umass--global--footer .container #umass--global--footer--links {
@@ -662,7 +688,7 @@ html.transition *:after {
   -ms-flex-positive: 1;
   flex-grow: 1;
   -ms-flex-negative: 1;
-  flex-shrink: 1;
+  flex-shrink: 0;
   text-align: right;
   margin-top: 1.5rem;
 }

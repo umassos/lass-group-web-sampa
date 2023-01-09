@@ -16,7 +16,7 @@ karren:
   display_name: Karren Sacco
   image: /img/people/cics.jpg
   role: adminstaff
-  bio: "ksacco [at] cs [dot] umass [dot] edu"
+  bio: "ksacco [at] cs.umass.edu"
   webpage: https://www.cics.umass.edu/people/sacco-karren
 
 emmanuel:
@@ -37,7 +37,7 @@ erik:
 noman:
   display_name: Noman Bashir
   image: /img/people/noman.png
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://noman-bashir.github.io/
   github: noman-bashir
@@ -45,14 +45,14 @@ noman:
 abel:
   display_name: Abel Souza
   image: /img/people/abel.jpg
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://asouza.io
 
 camellia:
   display_name: Camellia Zakaria
   image: /img/people/camellia.png
-  role: postdoc
+  role: staff
   bio: Postdoctoral Research Fellow
   webpage: https://nczakaria.github.io/
 
@@ -170,169 +170,169 @@ john:
   display_name: John Wamburu (PhD, Fall 2022)
   image: /img/people/john.jpg
   role: alum
-  bio: Research Staff, IBM Research, Kenya
+  bio: "<br>Thesis: Data-Driven Modeling and Analytics for Greening the Energy Ecosystem;<br> Research Staff, IBM Research, Kenya"
   webpage: https://people.cs.umass.edu/~jwamburu/
 
 amee:
   display_name: Amee Trivedi (PhD, Summer 2021)
   image: /img/people/amee_site.jpeg
   role: alum
-  bio: Research Staff, AT&T Labs Research
+  bio: "<br>Thesis: Human Mobility Monitoring using WiFi: Analysis, Modeling, and Applications;<br> Research Staff, AT&T Labs Research"
   webpage: https://ameetrivedi.github.io/
 
 ahmed:
-  display_name: Ahmed Ali-Eldin (Fall 2020)
+  display_name: Ahmed Ali-Eldin (Postdoctoral Fellow, Fall 2020)
   image: /img/people/ahmed.jpg
   role: alum
-  bio: Assistant Professor, Chalmers University, Sweden
+  bio: "<br>Assistant Professor, Chalmers University, Sweden"
   webpage: https://www.chalmers.se/en/staff/Pages/ahmh.aspx
 
 stephen:
   display_name: Stephen Lee (PhD, Summer 2019)
   image: /img/people/stephenlee86.jpeg
   role: alum
-  bio: Assistant Professor, University of Pittsburgh
+  bio: "<br>Thesis: Software-defined Infrastructure For IOT-Based Energy Systems;<br> Assistant Professor, University of Pittsburgh"
   webpage: https://people.cs.pitt.edu/~stl86/
 
 jeremy:
   display_name: Jeremy Gummeson (Research Fellow, Summer 2019; joint with Deepak Ganesan)
   image: /img/people/jeremy.jpeg
   role: alum
-  bio: Assistant Professor, University of Massachusetts, ECE
+  bio: "<br>Assistant Professor, University of Massachusetts, ECE"
   webpage: https://www.jeremygummeson.com/
 
 vani:
   display_name: Vani Gupta (PhD, Summer 2019; co-advised with Ramesh Sitaraman) 
   image: /img/people/vani_photo-4.jpeg
   role: alum
-  bio: Assistant Professor, Providence College
+  bio: "<br>Thesis: Energy-aware Algorithms For Greening Internet-Scale Distributed Systems Using Renewables;<br> Assistant Professor, Providence College"
   webpage: https://mathematics-computer-science.providence.edu/faculty-members/vani-gupta/
 
 srinivasan:
   display_name: Srinivasan Iyengar (PhD, Fall 2018)
   image: /img/people/Srinivasan-Iyengar.jpeg
   role: alum
-  bio: Senior Program Manager, Microsoft Research India 
+  bio: "<br>Thesis: Scalable data-driven modeling and analytics for smart buildings;<br> Senior Program Manager, Microsoft Research India"
   webpage: https://www.microsoft.com/en-us/research/people/sriyengar/
 
 prateek:
   display_name: Prateek Sharma (PhD, Summer 2018)
   image: /img/people/placeholder.png
   role: alum
-  bio: Assistant Professor, Indiana University Bloomington
+  bio: "<br>Thesis: Transiency-Driven Resource Management For Cloud Computing Platforms;<br> Assistant Professor, Indiana University Bloomington"
   webpage: https://cgi.luddy.indiana.edu/~prateeks/
 
 tian:
   display_name: Tian Guo (PhD, Summer 2016)
   image: /img/people/tian.png
   role: alum
-  bio: Assistant Professor, Worcester Polytechnic Institute
+  bio: "<br>Thesis: Elastic Resource Management in Distributed Clouds;<br> Assistant Professor, Worcester Polytechnic Institute"
   webpage: http://tianguo.info/
 
 xin:
   display_name: Xin He (PhD, Summer 2016)
   image: /img/people/tian.png
   role: alum
-  bio: Oracle
+  bio: "<br>Thesis: Application-aware Resource Management for Cloud Platforms;<br> Oracle"
 
 aditya:
   display_name: Aditya Mishra (PhD, Summer 2015)
   image: /img/people/aditya.png
   role: alum
-  bio: Assistant Professor, Seattle University; now  Associate Professor Northeastern
+  bio: "<br>Thesis: Energy Optimizations for Smart Buildings and Smart Grids;<br> Associate Teaching Professor, Northeastern University"
   webpage: http://fac-staff.seattleu.edu/mishraa/web/
 
 sean:
   display_name: Sean Barker (PhD, Spring 2014)
   image: /img/people/sbarker-small.jpeg
   role: alum
-  bio: Assistant Professor, Bowdoin College
+  bio: "<br>Thesis: Model-Driven Analytics of Energy Meter Data in Smart Homes;<br> Assistant Professor, Bowdoin College"
   webpage: https://www.bowdoin.edu/~sbarker/
 
 rahul:
   display_name: Rahul Singh (PhD, Spring 2013)
   image: /img/people/placeholder.png
   role: alum
-  bio: "Initial: Research Staff Member, IBM Watson; now: Nutanix"
+  bio: "<br>Thesis: Resource Management for Enterprise Data center Applications;<br> Nutanix"
 
 navin:
   display_name: Navin Sharma (PhD, Spring 2013)
   image: /img/people/placeholder.png
   role: alum
-  bio: Postdoctoral Reseacher and Founder, Heystack Inc.
+  bio: "<br>Thesis: Designing Distributed Systems for Intermittent Power;<br> Postdoctoral Reseacher and Founder, Heystack Inc."
 
 upendra:
   display_name: Upendra Sharma (Spring 2013)
   image: /img/people/placeholder.png
   role: alum
-  bio: Research Staff Member, IBM Watson
+  bio: "<br>Thesis: Elastic Resource Management in Cloud Computing Platforms;<br> Research Staff Member, IBM Watson"
 
 david:
   display_name: David Irwin (Postdoctoral Fellow, Summer 2012)
   image: /img/people/david.jpg
   role: alum
-  bio: Assistant Professor, University of Massachusetts, ECE
+  bio: "<br>Assistant Professor, University of Massachusetts, ECE"
   webpage: https://www.davidirwin.info/
 
 tim:
   display_name: Tim Wood (PhD, Spring 2011)
   image: /img/people/tim1.jpeg
   role: alum
-  bio: Assistant Professor, George Washington University
+  bio: "<br>Thesis: Improving Data Center Resource Management, Deployment, and Availability with Virtualization;<br> Assistant Professor, George Washington University"
   webpage: http://faculty.cs.gwu.edu/~timwood/wiki/doku.php/home
 
 mike:
   display_name: Mike Zink (Postdoctoral Fellow, Summer 2008; joint with Jim Kurose)
   image: /img/people/placeholder.png
   role: alum
-  bio: Assistant Professor, University of Massachusetts, ECE
+  bio: "<br>Assistant Professor, University of Massachusetts, ECE"
   webpage: http://www.ecs.umass.edu/~mzink
 
 peter:
   display_name: Peter Desnoyers (PhD, Fall 2007)
   image: /img/people/peter.png
   role: alum
-  bio: Assistant Professor, Northeastern University
+  bio: "<br>Thesis: Distributed Sensing Networks: Archiving, Indexing, and Analysis;<br> Assistant Professor, Northeastern University"
   webpage: http://www.ccs.neu.edu/home/pjd
 
 puru:
   display_name: Puru Kulkarni (PhD, Fall 2006)
   image: /img/people/puru.png
   role: alum
-  bio: Assistant Professor, IIT Bombay
+  bio: "<br>Thesis: Design Issues in Multi-tier Heterogeneous Sensor Networks;<br> Assistant Professor, IIT Bombay"
   webpage: http://www.cse.iitb.ac.in/~puru/
 
 xiaotao:
   display_name: Xiaotao Liu (PhD, Summer 2006)
   image: /img/people/xiaotao.jpeg
   role: alum
-  bio: "Senior Research Scientist, EMC; now: CEO, SuperNode"
+  bio: "<br>Thesis: System Support for Pervasive Multimedia Systems;<br> CEO, SuperNode"
   webpage: https://www.linkedin.com/in/xiaotao-liu-70a1018/
 
 huan:
   display_name: Huan Li (PhD, Summer 2006)
   image: /img/people/placeholder.png
   role: alum
-  bio: "Associate Professor, Beihang University; now: Professor, Harbin Institute of Technology"
+  bio: "<br>Thesis: Resource Management for Distributed Real-Time Sensor Systems;<br> Professor, Harbin Institute of Technology"
 
 vijay:
   display_name: Vijay Sundaram (PhD, Fall 2005)
   image: /img/people/placeholder.png
   role: alum
-  bio: Microsoft Corp.
+  bio: "<br>Thesis: Self-managing Techniques for Storage Resource Management;<br> Microsoft Corp."
 
 bhuvan:
   display_name: Bhuvan Urgaonkar (PhD, Summer 2005)
   image: /img/people/URGAONKAR-BHUVAN.jpeg
   role: alum
-  bio: Assistant Professor, Pennsylvania State University
+  bio: "<br>Thesis: Dynamic Resource Management in Internet Hosting Platforms;<br> Professor, Pennsylvania State University"
   webpage: http://www.cse.psu.edu/~bhuvan/
 
 abhishek:
   display_name: Abhishek Chandra (PhD, Fall 2004)
   image: /img/people/profile_chandra.jpeg
   role: alum
-  bio: Assistant Professor, University of Minnesota
+  bio: "<br>Thesis: Resource Allocation for Self-Managing Servers;<br> Professor, University of Minnesota"
   webpage: http://www-users.cs.umn.edu/~chandra/
 
 

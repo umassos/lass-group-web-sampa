@@ -18,17 +18,17 @@ body {
     text-align: center;
 }
 
-.footer {
-    /* padding-top: 19px; */
-    color: $gray;
-    border-top: 1px solid $light-gray;
-    text-align: center;
-    font-size: 0.8em;
+// .footer {
+//     /* padding-top: 19px; */
+//     color: $gray;
+//     border-top: 1px solid $light-gray;
+//     text-align: center;
+//     font-size: 0.8em;
 
-    a:link, a:visited {
-        color: $gray;
-    }
-}
+//     a:link, a:visited {
+//         color: $gray;
+//     }
+// }
 
 .fa {
     color: $gray;
@@ -80,6 +80,8 @@ ul.news {
 
 @media (min-width: 768px) {
     .role.grad      { column-count: 2 }
+    .role.staff     { column-count: 2 }
+    .role.ugrad     { column-count: 2 }
     .project-people { column-count: 3 }
     .card-columns   { column-count: 3 }
 }
@@ -128,6 +130,7 @@ section {
 
     .bio {
         color: $gray;
+        padding: 0px 0px 2px 0px;
     }
 
     .person-name {
@@ -136,7 +139,7 @@ section {
 }
 
 .person-without-image {
-    margin: 0;
+    margin-bottom: 5px;
 
     .bio {
         margin-left: 1em;

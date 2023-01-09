@@ -69,25 +69,30 @@
             {% if page.notitle != true %}
                 <h1>{{ page.title }}</h1>
             {% endif %}
-
-            {{ content }}
-
+            
+            <div class="content">
+                {{ content }}
+            </div>
+            
             <!-- <div class="footer">
                 <p>
 			740 N. Pleasant St,
 			Lederle Graduate Research Center, rooms A331 and A313
 			UMass Amherst, MA 01003.	
                 </p>
+                <font color="#999">at the</font>
             </div> -->
 
         </div> <!-- /container -->
-
+        
+        <footer class="footer">
         <div id="umass--global--footer">
             <div class="container">
               <a href="https://www.umass.edu/" title="University of Massachusetts Amherst" id="umass--global--footer-wordmark"><img src="//www.umass.edu/static/branding/images/UMassAmherst_longform-WHITE.svg" alt="University of Massachusetts Amherst" id="umass--logo-longform--stacked"></a>
-              <div id="umass--global--footer--links"><a href="https://www.cics.umass.edu/" id="umass--global--footer-home">Manning College of Information & Computer Sciences</a> <br> <font color="#999">at the</font> <a href="https://www.umass.edu" id="umass--global--footer-policies">University of Massachusetts Amherst.</a> <br> <font color="#881c1c"; size="1">padding</font></div>
+              <div id="umass--global--footer--links"> <a href="/privacy.html" id="umass--global--footer-policies"><b>Privacy Policy</b></a>  <br> <font color="#999">Contact Us:</font> <br> <a href="https://www.google.com/maps/place/Lederle+Graduate+Research+Center/@42.394404,-72.527072,14z/data=!4m13!1m7!3m6!1s0x89e6d27a222d2937:0x345f2fbc4e4230d!2s740+N+Pleasant+St,+Amherst,+MA+01003!3b1!8m2!3d42.3944043!4d-72.527072!3m4!1s0x89e6d278eaaaaaab:0xcaf2066aa2f7a797!8m2!3d42.3940997!4d-72.5270451" id="umass--global--footer-home">740 North Pleasant St, UMass Amherst, MA 01003.<br> Lederle Graduate Research Center, rooms A331 and A313</a> <br> <font color="#881c1c"; size="1">padding</font></div>
            </div>
           </div>
+        </footer>
 
         <!-- Support retina images. -->
         <script type="text/javascript"
