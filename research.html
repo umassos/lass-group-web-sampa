@@ -10,6 +10,24 @@ title: Research Projects
     {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
     {% assign projects_by_date = projects_by_date | reverse %}
     {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
+        {% if p.status == 'active' %}
+            {% include project-card.html project=p %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<hr/>
+<h1>Completed Projects</h1>
+
+<div class="card-columns">
+    {% comment %}
+    Sort the projects by date, putting those without dates last
+    {% endcomment %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+    {% if p.status == 'completed' %}
+    {% include project-card.html project=p %}
+    {% endif %}
     {% endfor %}
 </div>
