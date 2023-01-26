@@ -1,3 +1,39 @@
+## Updates Jan 26, 2023
+
+
+#### Home page
+- Reduced the padding of carousel caption box, make it fit on mobile devices.
+- Fixed the address in footer, room appear first, then street address.
+- Added padding for LASS logo on mobile devices so that it's not too close to memu items
+
+#### People
+- Removed admin staff
+- Labeled Ph.D and master students
+- List people alphabetically, in row-wise order
+- Removed Vibhhu Sharma
+- Changed title and position orders
+- Added Basundhara Chakrabarty and Shruti Jasoria as master students
+- Added photo for Hetvi
+
+#### Publications
+- Removed all HTML boxes, replace it with PDF
+- Added latest published papers
+- Re-arrange 2023 papers to be in reversed time order
+- Order links as arxiv, pdf, slides, video
+
+#### Projects 
+- Added completed project group. 
+- Moved old projects to completed project group.
+- Sorted projects based on last updated time.
+- Added project placeholder - edge and cloud computing.
+- Added project placeholder - Non-intrusive Mobile Sensing for Health and Wellness.
+
+#### News
+- Added 2022 news
+- Updated dates in "Month, Year" format
+
+
+--- 
 Research Group Web Site Template
 ================================
 
