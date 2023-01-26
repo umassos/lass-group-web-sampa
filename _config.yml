@@ -21,6 +21,10 @@ roles:
     name: Postdocs
   - key: grad
     name: Graduate Students
+  - key: phd
+    name: Ph.D Students
+  - key: master
+    name: Master Students
   - key: ugrad
     name: Undergraduate Students
   - key: master-alum
