@@ -75,15 +75,21 @@ ul.news {
 
 @media (min-width: 576px) {
     .project-people { column-count: 2 }
-    .card-columns   { column-count: 2 }
+    //.card-columns   { column-count: 2}
+    .card-columns .card { width: 48%}
+    .person {width: 50%}
 }
 
 @media (min-width: 768px) {
     .role.grad      { column-count: 2 }
+    .role.phd       {column-count: 2}
+    .role.master    {column-count: 2}
     .role.staff     { column-count: 2 }
     .role.ugrad     { column-count: 2 }
     .project-people { column-count: 3 }
-    .card-columns   { column-count: 3 }
+    //.card-columns   { column-count: 3 }
+    .card-columns .card { width: 31%}
+    .person {width: 50%}
 }
 
 .title img {
@@ -122,6 +128,7 @@ section {
 .person {
 
     margin-bottom: 10px;
+    flex-grow: 1;
 
     .profile {
         height: 70px;
@@ -149,4 +156,21 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.card-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-columns .card {
+    display: flex;
+    flex-grow: 1;
+}
+
+.role {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

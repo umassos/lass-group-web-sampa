@@ -29,8 +29,14 @@ body {
   flex-shrink: 0;
 }
 
-hr {
-  border-top: 1px solid var(--global-divider-color);
+//hr {
+//  border-top: 1px solid var(--global-divider-color);
+//}
+
+@media screen and (max-width: 575px)  {
+  a {
+    padding-bottom: 20px;
+  }
 }
 
 a, table.table a {
