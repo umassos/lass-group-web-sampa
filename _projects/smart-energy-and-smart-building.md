@@ -1,5 +1,6 @@
 ---
 title: Smart Energy and Smart Buildings
+status: completed
 
 description: |
     The Smart* project seeks to optimize energy consumption in homes, with specific attention to modern 'smart homes' and the new opportunities made available by such homes.

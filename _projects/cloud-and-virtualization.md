@@ -1,5 +1,6 @@
 ---
 title: Cloud and Virtualization
+status: completed
 
 description: |
     This work leverages virtualization technology to improve the performance, security, 

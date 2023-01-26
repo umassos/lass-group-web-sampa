@@ -1,6 +1,7 @@
 ---
 title: BenchLab
 
+status: completed
 description: |
     This project seeks to provide the research community with more realistic benchmarks by providing real applications with real production workloads.
 

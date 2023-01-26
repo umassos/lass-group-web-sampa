@@ -1,5 +1,8 @@
 ---
 title: CarbonFirst
+last-updated: 2023-01-25
+status: active
+
 
 description: |
     The CarbonFirst Project focuses on making cloud and edge computing sustainable and carbon-free.
