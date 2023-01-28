@@ -23,6 +23,6 @@ in non-intrusive sensing, user privacy, and scale.
  Project research includes 
 
 
-* Non-intrusive and privacy preserving auduo sensing
+* Non-intrusive and privacy preserving audio sensing
 * Internet of Collaborative Things (IoCT) - joint with UCLA
 * User and data privacy in IoT systems

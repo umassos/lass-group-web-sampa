@@ -44,7 +44,7 @@ ___
    This data set includes electrical data from over 400 homes. These traces are also available from our [trace repository](http://traces.cs.umass.edu/index.php/Smart/Smart).
 
 3. Smart* Software Tools
-   These tools include utilities to facilitate data collection using commdity sensors. Source code is available from our [software repository](http://traces.cs.umass.edu/index.php/Smart/Tools).
+   These tools include utilities to facilitate data collection using commodity sensors. Source code is available from our [software repository](http://traces.cs.umass.edu/index.php/Smart/Tools).
 
 ___
 

@@ -24,7 +24,7 @@ work focuses on the following topics
 * Serverless computing resource management
 * Edge AI resource management
 * Elastic scaling and resource management
-* Power-peformance tradeoffs 
+* Power-performance tradeoffs 
 * Resource management for Internet-scale content delivery networks
 
 

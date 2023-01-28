@@ -29,9 +29,11 @@ serve:
 clean:
 	$(RM) -r _site
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+DEPLOY_HOST ?= none.cs.umass.edu 
+DEPLOY_PATH ?= /export/www/lass
+#RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+## rsync will not delete
+RSYNC := rsync --compress --recursive --checksum --itemize-changes  -e ssh
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)

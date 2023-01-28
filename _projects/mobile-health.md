@@ -24,5 +24,5 @@ Our approaches combine mobile sensing, systems, and machine learning for continu
 health insights. Ongoing work focuses on the following topics
 
 * Passive wifi sensing of sleep
-* Privacy-preseving health monitoring
+* Privacy-preserving health monitoring
 * Monitoring of group and social interactions
