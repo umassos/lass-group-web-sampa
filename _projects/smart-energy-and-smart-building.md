@@ -15,7 +15,7 @@ people:
 - emmanuel
 - jeannie
 
-image: https://lass.cs.umass.edu/images/smart.png
+## image: https://lass.cs.umass.edu/images/smart.png
 layout: project
 
 ---
